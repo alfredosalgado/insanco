@@ -1,0 +1,153 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Persona consultora -->
+  <g transform="translate(80, 100)">
+    <!-- Cabeza -->
+    <ellipse cx="60" cy="45" rx="16" ry="20" fill="#d4a574"/>
+    
+    <!-- Cabello -->
+    <path d="M45 35 Q60 28 75 35 Q75 40 60 40 Q45 40 45 35" fill="#8b4513"/>
+    
+    <!-- Detalles faciales -->
+    <circle cx="55" cy="42" r="1.5" fill="#2c3e50"/>
+    <circle cx="65" cy="42" r="1.5" fill="#2c3e50"/>
+    <path d="M57 48 Q60 52 63 48" stroke="#8b4513" stroke-width="1" fill="none"/>
+    
+    <!-- Cuerpo (traje profesional) -->
+    <rect x="44" y="60" width="32" height="40" fill="#2c3e50" rx="6"/>
+    
+    <!-- Camisa -->
+    <rect x="48" y="64" width="24" height="32" fill="#ffffff" rx="4"/>
+    
+    <!-- Corbata -->
+    <rect x="58" y="67" width="4" height="24" fill="#3498db" rx="1"/>
+    
+    <!-- Brazos -->
+    <ellipse cx="36" cy="75" rx="7" ry="18" fill="#d4a574"/>
+    <ellipse cx="84" cy="75" rx="7" ry="18" fill="#d4a574"/>
+    
+    <!-- Manos -->
+    <circle cx="32" cy="93" r="4" fill="#d4a574"/>
+    <circle cx="88" cy="93" r="4" fill="#d4a574"/>
+    
+    <!-- Piernas -->
+    <rect x="52" y="100" width="7" height="30" fill="#2c3e50" rx="3"/>
+    <rect x="61" y="100" width="7" height="30" fill="#2c3e50" rx="3"/>
+    
+    <!-- Zapatos -->
+    <ellipse cx="55" cy="134" rx="6" ry="3" fill="#000000"/>
+    <ellipse cx="64" cy="134" rx="6" ry="3" fill="#000000"/>
+    
+    <!-- Portapapeles en la mano -->
+    <rect x="20" y="87" width="18" height="25" fill="#8b4513" rx="2"/>
+    <rect x="22" y="89" width="14" height="21" fill="#ffffff"/>
+    <rect x="24" y="93" width="10" height="1" fill="#6b7280"/>
+    <rect x="24" y="96" width="8" height="1" fill="#6b7280"/>
+    <rect x="24" y="99" width="9" height="1" fill="#6b7280"/>
+    <rect x="24" y="102" width="10" height="1" fill="#6b7280"/>
+  </g>
+  
+  <!-- Cliente -->
+  <g transform="translate(220, 120)">
+    <!-- Cabeza -->
+    <ellipse cx="50" cy="30" rx="16" ry="20" fill="#d4a574"/>
+    
+    <!-- Cabello -->
+    <path d="M35 20 Q50 13 65 20 Q65 25 50 25 Q35 25 35 20" fill="#2c3e50"/>
+    
+    <!-- Detalles faciales -->
+    <circle cx="45" cy="27" r="1.5" fill="#2c3e50"/>
+    <circle cx="55" cy="27" r="1.5" fill="#2c3e50"/>
+    <path d="M47 33 Q50 37 53 33" stroke="#8b4513" stroke-width="1" fill="none"/>
+    
+    <!-- Cuerpo -->
+    <rect x="34" y="45" width="32" height="40" fill="#34495e" rx="6"/>
+    
+    <!-- Camisa -->
+    <rect x="38" y="49" width="24" height="32" fill="#ffffff" rx="4"/>
+    
+    <!-- Brazos -->
+    <ellipse cx="26" cy="60" rx="7" ry="18" fill="#d4a574"/>
+    <ellipse cx="74" cy="60" rx="7" ry="18" fill="#d4a574"/>
+    
+    <!-- Manos -->
+    <circle cx="22" cy="78" r="4" fill="#d4a574"/>
+    <circle cx="78" cy="78" r="4" fill="#d4a574"/>
+    
+    <!-- Piernas -->
+    <rect x="42" y="85" width="7" height="30" fill="#34495e" rx="3"/>
+    <rect x="51" y="85" width="7" height="30" fill="#34495e" rx="3"/>
+    
+    <!-- Zapatos -->
+    <ellipse cx="45" cy="119" rx="6" ry="3" fill="#8b4513"/>
+    <ellipse cx="54" cy="119" rx="6" ry="3" fill="#8b4513"/>
+  </g>
+  
+  <!-- Mesa de reunión -->
+  <g>
+    <ellipse cx="200" cy="200" rx="90" ry="25" fill="#8b4513"/>
+    <rect x="120" y="210" width="160" height="10" fill="#654321"/>
+    
+    <!-- Patas de mesa -->
+    <rect x="135" y="220" width="8" height="30" fill="#34495e"/>
+    <rect x="257" y="220" width="8" height="30" fill="#34495e"/>
+    
+    <!-- Planos técnicos en la mesa -->
+    <rect x="150" y="180" width="40" height="30" fill="#ffffff" stroke="#2c3e50" stroke-width="2" rx="2"/>
+    <rect x="152" y="182" width="36" height="26" fill="#ecf0f1"/>
+    
+    <!-- Líneas de planos -->
+    <line x1="155" y1="187" x2="185" y2="187" stroke="#3b82f6" stroke-width="1"/>
+    <line x1="155" y1="191" x2="185" y2="191" stroke="#3b82f6" stroke-width="1"/>
+    <line x1="155" y1="195" x2="185" y2="195" stroke="#3b82f6" stroke-width="1"/>
+    <line x1="155" y1="199" x2="185" y2="199" stroke="#3b82f6" stroke-width="1"/>
+    
+    <!-- Detalles de planos -->
+    <rect x="158" y="185" width="10" height="7" fill="none" stroke="#e74c3c" stroke-width="0.5"/>
+    <rect x="170" y="189" width="8" height="5" fill="none" stroke="#e74c3c" stroke-width="0.5"/>
+    <circle cx="180" cy="197" r="2" fill="none" stroke="#27ae60" stroke-width="0.5"/>
+    
+    <!-- Calculadora en la mesa -->
+    <rect x="210" y="183" width="15" height="22" fill="#2c3e50" rx="1"/>
+    <rect x="212" y="185" width="11" height="8" fill="#27ae60"/>
+    <rect x="213" y="195" width="2" height="2" fill="#95a5a6"/>
+    <rect x="216" y="195" width="2" height="2" fill="#95a5a6"/>
+    <rect x="219" y="195" width="2" height="2" fill="#95a5a6"/>
+    <rect x="213" y="198" width="2" height="2" fill="#95a5a6"/>
+    <rect x="216" y="198" width="2" height="2" fill="#95a5a6"/>
+    <rect x="219" y="198" width="2" height="2" fill="#95a5a6"/>
+    
+    <!-- Tazas de café -->
+    <ellipse cx="135" cy="190" rx="4" ry="3" fill="#8b4513"/>
+    <rect x="131" y="187" width="8" height="5" fill="#ffffff"/>
+    <ellipse cx="135" cy="187" rx="4" ry="3" fill="#6f4e37"/>
+    
+    <ellipse cx="265" cy="190" rx="4" ry="3" fill="#8b4513"/>
+    <rect x="261" y="187" width="8" height="5" fill="#ffffff"/>
+    <ellipse cx="265" cy="187" rx="4" ry="3" fill="#6f4e37"/>
+  </g>
+  
+  <!-- Bombilla de idea -->
+  <g transform="translate(320, 50)">
+    <circle cx="20" cy="25" r="15" fill="#f1c40f" opacity="0.9"/>
+    <rect x="17" y="40" width="6" height="10" fill="#34495e" rx="1"/>
+    <rect x="16" y="50" width="8" height="5" fill="#34495e" rx="1"/>
+    
+    <!-- Filamento de bombilla -->
+    <path d="M15 20 Q20 15 25 20 Q20 25 15 20" stroke="#e67e22" stroke-width="1" fill="none"/>
+    <path d="M15 25 Q20 30 25 25" stroke="#e67e22" stroke-width="1" fill="none"/>
+    
+    <!-- Rayos de luz -->
+    <line x1="5" y1="15" x2="0" y2="10" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="35" y1="15" x2="40" y2="10" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="35" y1="35" x2="40" y2="40" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="5" y1="35" x2="0" y2="40" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="30" y1="25" x2="35" y2="25" stroke="#f1c40f" stroke-width="2"/>
+    <line x1="10" y1="25" x2="5" y2="25" stroke="#f1c40f" stroke-width="2"/>
+  </g>
+  
+  <!-- Suelo -->
+  <rect x="0" y="270" width="400" height="30" fill="#95a5a6"/>
+</svg>

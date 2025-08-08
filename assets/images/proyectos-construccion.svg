@@ -1,0 +1,121 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="#f0f4f7"/>
+  
+  <!-- Edificio en construcción -->
+  <g>
+    <rect x="250" y="100" width="120" height="150" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    
+    <!-- Marco estructural -->
+    <rect x="255" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="270" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="285" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="300" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="315" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="330" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="345" y="105" width="3" height="140" fill="#34495e"/>
+    <rect x="360" y="105" width="3" height="140" fill="#34495e"/>
+    
+    <!-- Vigas horizontales -->
+    <rect x="250" y="120" width="120" height="2" fill="#34495e"/>
+    <rect x="250" y="140" width="120" height="2" fill="#34495e"/>
+    <rect x="250" y="160" width="120" height="2" fill="#34495e"/>
+    <rect x="250" y="180" width="120" height="2" fill="#34495e"/>
+    <rect x="250" y="200" width="120" height="2" fill="#34495e"/>
+    <rect x="250" y="220" width="120" height="2" fill="#34495e"/>
+    
+    <!-- Ventanas en instalación -->
+    <rect x="260" y="125" width="15" height="12" fill="#3498db" opacity="0.7"/>
+    <rect x="290" y="125" width="15" height="12" fill="#3498db" opacity="0.7"/>
+    <rect x="320" y="125" width="15" height="12" fill="#3498db" opacity="0.7"/>
+    <rect x="260" y="165" width="15" height="12" fill="#3498db" opacity="0.7"/>
+    <rect x="290" y="165" width="15" height="12" fill="#3498db" opacity="0.7"/>
+    <rect x="320" y="165" width="15" height="12" fill="#3498db" opacity="0.7"/>
+  </g>
+  
+  <!-- Grúa mejorada -->
+  <g>
+    <rect x="320" y="30" width="6" height="120" fill="#f39c12"/>
+    <rect x="295" y="50" width="50" height="4" fill="#f39c12"/>
+    <rect x="323" y="25" width="16" height="10" fill="#e74c3c" rx="2"/>
+    
+    <!-- Cable de grúa -->
+    <line x1="335" y1="54" x2="335" y2="90" stroke="#2c3e50" stroke-width="1"/>
+    <rect x="330" y="90" width="10" height="6" fill="#95a5a6" rx="1"/>
+  </g>
+  
+  <!-- Persona trabajando mejorada -->
+  <g transform="translate(80, 120)">
+    <!-- Cabeza -->
+    <ellipse cx="50" cy="40" rx="16" ry="20" fill="#d4a574"/>
+    
+    <!-- Cabello -->
+    <path d="M35 30 Q50 23 65 30 Q65 35 50 35 Q35 35 35 30" fill="#2c3e50"/>
+    
+    <!-- Casco de seguridad -->
+    <ellipse cx="50" cy="27" rx="22" ry="16" fill="#f39c12"/>
+    <rect x="40" y="21" width="20" height="3" fill="#ffffff"/>
+    
+    <!-- Detalles faciales -->
+    <circle cx="44" cy="37" r="1.5" fill="#2c3e50"/>
+    <circle cx="56" cy="37" r="1.5" fill="#2c3e50"/>
+    <path d="M46 43 Q50 47 54 43" stroke="#8b4513" stroke-width="1" fill="none"/>
+    
+    <!-- Cuerpo -->
+    <rect x="35" y="55" width="30" height="40" fill="#e67e22" rx="6"/>
+    
+    <!-- Chaleco de seguridad -->
+    <rect x="38" y="60" width="24" height="30" fill="#f1c40f" rx="4"/>
+    <rect x="42" y="65" width="16" height="2" fill="#e67e22"/>
+    <rect x="42" y="73" width="16" height="2" fill="#e67e22"/>
+    
+    <!-- Brazos -->
+    <ellipse cx="25" cy="70" rx="6" ry="18" fill="#d4a574"/>
+    <ellipse cx="75" cy="70" rx="6" ry="18" fill="#d4a574"/>
+    
+    <!-- Manos -->
+    <circle cx="20" cy="88" r="5" fill="#d4a574"/>
+    <circle cx="80" cy="88" r="5" fill="#d4a574"/>
+    
+    <!-- Piernas -->
+    <rect x="40" y="95" width="6" height="30" fill="#2c3e50" rx="3"/>
+    <rect x="54" y="95" width="6" height="30" fill="#2c3e50" rx="3"/>
+    
+    <!-- Botas de trabajo -->
+    <ellipse cx="43" cy="130" rx="6" ry="4" fill="#8b4513"/>
+    <ellipse cx="57" cy="130" rx="6" ry="4" fill="#8b4513"/>
+    
+    <!-- Martillo en la mano -->
+    <rect x="15" y="83" width="12" height="2" fill="#8b4513" rx="1"/>
+    <rect x="12" y="81" width="6" height="6" fill="#95a5a6" rx="1"/>
+  </g>
+  
+  <!-- Materiales de construcción mejorados -->
+  <g>
+    <rect x="30" y="220" width="35" height="25" fill="#95a5a6" rx="2"/>
+    <rect x="35" y="215" width="25" height="5" fill="#7f8c8d"/>
+    <rect x="33" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="40" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="47" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="54" y="225" width="4" height="15" fill="#e67e22"/>
+    
+    <rect x="80" y="220" width="35" height="25" fill="#95a5a6" rx="2"/>
+    <rect x="85" y="215" width="25" height="5" fill="#7f8c8d"/>
+    <rect x="83" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="90" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="97" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="104" y="225" width="4" height="15" fill="#e67e22"/>
+    
+    <rect x="130" y="220" width="35" height="25" fill="#95a5a6" rx="2"/>
+    <rect x="135" y="215" width="25" height="5" fill="#7f8c8d"/>
+    <rect x="133" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="140" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="147" y="225" width="4" height="15" fill="#e67e22"/>
+    <rect x="154" y="225" width="4" height="15" fill="#e67e22"/>
+    
+    <!-- Conos de seguridad -->
+    <polygon points="180,250 188,225 172,225" fill="#e67e22"/>
+    <rect x="177" y="240" width="6" height="4" fill="#ffffff"/>
+    <rect x="177" y="235" width="6" height="4" fill="#ffffff"/>
+  </g>
+</svg>

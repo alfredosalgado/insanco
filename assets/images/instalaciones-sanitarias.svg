@@ -1,0 +1,76 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Person (more realistic proportions) -->
+  <!-- Head -->
+  <ellipse cx="150" cy="55" rx="18" ry="22" fill="#d4a574"/>
+  
+  <!-- Hair -->
+  <path d="M132 45 Q150 35 168 45 Q168 50 150 50 Q132 50 132 45" fill="#8b4513"/>
+  
+  <!-- Hard hat -->
+  <ellipse cx="150" cy="42" rx="25" ry="18" fill="#ff6b35"/>
+  <rect x="140" y="35" width="20" height="4" fill="#ffffff"/>
+  
+  <!-- Face details -->
+  <circle cx="143" cy="52" r="2" fill="#2c3e50"/>
+  <circle cx="157" cy="52" r="2" fill="#2c3e50"/>
+  <path d="M145 60 Q150 65 155 60" stroke="#8b4513" stroke-width="1.5" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="130" y="70" width="40" height="50" fill="#2980b9" rx="8"/>
+  
+  <!-- Work vest -->
+  <rect x="135" y="75" width="30" height="40" fill="#f39c12" rx="5"/>
+  <rect x="140" y="80" width="20" height="3" fill="#e67e22"/>
+  <rect x="140" y="90" width="20" height="3" fill="#e67e22"/>
+  
+  <!-- Arms -->
+  <ellipse cx="120" cy="85" rx="8" ry="20" fill="#d4a574"/>
+  <ellipse cx="180" cy="85" rx="8" ry="20" fill="#d4a574"/>
+  
+  <!-- Hands -->
+  <circle cx="115" cy="105" r="6" fill="#d4a574"/>
+  <circle cx="185" cy="105" r="6" fill="#d4a574"/>
+  
+  <!-- Legs -->
+  <rect x="140" y="120" width="8" height="35" fill="#34495e" rx="4"/>
+  <rect x="152" y="120" width="8" height="35" fill="#34495e" rx="4"/>
+  
+  <!-- Work boots -->
+  <ellipse cx="144" cy="160" rx="8" ry="5" fill="#2c3e50"/>
+  <ellipse cx="156" cy="160" rx="8" ry="5" fill="#2c3e50"/>
+  
+  <!-- Wrench in hand -->
+  <rect x="108" y="100" width="15" height="3" fill="#95a5a6" rx="1"/>
+  <circle cx="108" cy="101" r="3" fill="#7f8c8d"/>
+  
+  <!-- Pipe system -->
+  <rect x="40" y="130" width="220" height="12" fill="#bdc3c7" rx="6"/>
+  <rect x="60" y="150" width="180" height="8" fill="#95a5a6" rx="4"/>
+  
+  <!-- Pipe joints -->
+  <circle cx="80" cy="136" r="8" fill="#34495e"/>
+  <circle cx="150" cy="136" r="8" fill="#34495e"/>
+  <circle cx="220" cy="136" r="8" fill="#34495e"/>
+  
+  <!-- Valve -->
+  <rect x="145" y="125" width="10" height="22" fill="#e74c3c" rx="2"/>
+  <circle cx="150" cy="130" r="4" fill="#c0392b"/>
+  
+  <!-- Water leak -->
+  <path d="M148 145 Q145 150 148 155 Q151 150 148 145" fill="#3498db" opacity="0.7"/>
+  <circle cx="146" cy="160" r="2" fill="#3498db" opacity="0.6"/>
+  <circle cx="152" cy="162" r="1.5" fill="#3498db" opacity="0.5"/>
+  
+  <!-- Tool box -->
+  <rect x="15" y="165" width="50" height="30" fill="#e74c3c" rx="4"/>
+  <rect x="20" y="170" width="40" height="4" fill="#c0392b"/>
+  <rect x="35" y="160" width="10" height="8" fill="#95a5a6" rx="2"/>
+  
+  <!-- Tools in box -->
+  <rect x="25" y="175" width="2" height="12" fill="#f39c12"/>
+  <rect x="30" y="175" width="2" height="10" fill="#27ae60"/>
+  <rect x="35" y="175" width="2" height="8" fill="#9b59b6"/>
+</svg>
